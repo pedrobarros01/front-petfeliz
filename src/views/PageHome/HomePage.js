@@ -1,11 +1,12 @@
 import React from "react";
+import NavBar from "../../components/componentsHome/navBar/NavBar";
 import { View } from "./styledHome";
 
 
 const HomePage = () => {
     return(
         <View>
-            <p>Ola Mundo</p>
+            <NavBar />
         </View>
     );
 }
